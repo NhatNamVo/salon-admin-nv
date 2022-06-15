@@ -1,0 +1,9 @@
+.client-action-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .form-client-wrapper, .image-upload-wrapper {
+        flex: 1 1 auto;
+    }
+}

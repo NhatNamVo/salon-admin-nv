@@ -1,0 +1,19 @@
+.login-wrapper {
+    width: 320px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 20px;
+    box-shadow: 0 5px 10px 0 #ccc;
+
+
+    @media (max-width: 575.98px) {
+        width: 95%;
+        padding: 10px;
+        transform-origin: center;
+        transform: translateY(50%);
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+}

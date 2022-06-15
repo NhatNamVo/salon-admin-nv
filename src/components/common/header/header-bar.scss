@@ -1,0 +1,42 @@
+.header-bar-wrapper {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: #2c3e50;
+    justify-content: space-between;
+
+    .user-action {
+        button {
+            font-size: 14px;
+            position: relative;
+            overflow: hidden;
+
+            p {
+                position: relative;
+                z-index: 10;
+            }
+
+            .overlay {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: -200%;
+                background-color: #78BC27;
+                width: 0;
+                height: 100%;
+
+                transform: skewX(80deg);
+                transition: width .5s;
+            }
+
+            &:hover {
+                .overlay {
+                    width: 500%;
+                    transition: width .5s;
+                }
+            }
+        }
+    }
+}

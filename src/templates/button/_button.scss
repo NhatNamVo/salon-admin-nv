@@ -1,0 +1,48 @@
+.button {
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.button-logout {
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #78BC27;
+    background-color: transparent;
+}
+
+.button-edit {
+    color: #fff !important;
+    transition: all 0.2s;
+    background-color: #008CBF !important;
+    
+    &:hover {
+        color: #008CBF !important;
+        transition: all 0.2s;
+        background-color: #fff !important;
+    }
+}
+
+.button-calendar {
+    color: #fff !important;
+    transition: all 0.2s;
+    background-color: #C095C2 !important;
+
+    &:hover {
+        color: #C095C2 !important;
+        transition: all 0.2s;
+        background-color: #fff !important;
+    }
+}
+
+.button-sale {
+    color: #fff !important;
+    transition: all 0.2s;
+    background-color: #78BC27 !important;
+
+    &:hover {
+        color: #78BC27 !important;
+        transition: all 0.2s;
+        background-color: #fff !important;
+    }
+}

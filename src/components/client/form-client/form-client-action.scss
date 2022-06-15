@@ -1,0 +1,21 @@
+.form-client-action {
+    .form-title {
+        .el-form-item__label {
+            width: auto !important;
+            min-width: 120px !important;
+        }
+
+        .el-radio {
+            width: auto !important;
+        }
+    }
+
+    .el-form-item__content {
+        text-align: left;
+    }
+
+    .el-select,
+    .el-date-editor--date {
+        width: 100% !important;
+    }
+}
